@@ -35,35 +35,34 @@ When prompted:
 **2) For MongoDB: Enter connection string and database name**
 
 
-Run the ChatDB application:
+**Run the ChatDB application:**
 python chatdb.py
 
 # Features
 
-Database Support:
-
+**Database Support:**
 
 MySQL (SQL)
 MongoDB (NoSQL)
 
+**Natural Language Queries:**
 
-Natural Language Queries:
+**MySQL Examples:**
 
-CopyMySQL Examples:
 - "Show me all data"
 - "Count all records"
 - "Find transactions where unit_price is greater than 10"
 - "Sort by unit_price descending"
 - "Show average unit_price"
 
-MongoDB Examples:
+**MongoDB Examples:**
+
 - "show all data"
 - "count all records"
 - "find transactions where unit_price is greater than 10"
 - "sort by unit_price descending"
 
-Data Visualization:
-
+**Data Visualization:**
 
 Bar charts
 Line charts
@@ -71,7 +70,7 @@ Scatter plots
 Pie charts
 
 
-Additional Features:
+**Additional Features:**
 
 
 Schema generation
@@ -81,34 +80,36 @@ Query suggestions
 
 # Database Connection Details
 
-# MySQL:
-CopyHost: localhost
+**MySQL:**
+Host: localhost
 Default user: chatdb_user
 Default password: your_password
 
-# MongoDB:
-CopyDefault connection string: mongodb://localhost:27017/
+**MongoDB:**
+Default connection string: mongodb://localhost:27017/
 
 # Common Commands and Examples
 
 Import data:
 
-bash
-#Run setup utility
+
+**Run setup utility**
 python database_setup.py
 
-#Choose option 1 for MySQL or 2 for MongoDB
-#Follow the prompts to import your CSV file
+Choose option 1 for MySQL or 2 for MongoDB
 
-Query data:
+Follow the prompts to import your CSV file
 
-bash
-#Run main application
+**Query data:**
+
+**Run main application**
 python chatdb.py
 
 #Connect to database (option 1 or 2)
-#Use option 5 for natural language queries
-#Use option 7 for data visualization
+
+**Use option 5 for natural language queries**
+
+**Use option 7 for data visualization**
 
 # Error Handling and Troubleshooting
 
@@ -116,7 +117,9 @@ Database Connection Issues:
 
 
 Verify MySQL/MongoDB is running
+
 Check credentials
+
 Ensure database exists
 
 
@@ -124,7 +127,9 @@ Import Issues:
 
 
 Verify CSV file format
+
 Check file permissions
+
 Ensure sufficient disk space
 
 
@@ -132,7 +137,9 @@ Query Issues:
 
 
 Check table/collection exists
+
 Verify column names in queries
+
 Ensure data types match
 
 # Requirements
