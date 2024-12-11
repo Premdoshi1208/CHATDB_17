@@ -113,33 +113,27 @@ python chatdb.py
 
 # Error Handling and Troubleshooting
 
-Database Connection Issues:
+**Database Connection Issues:**
 
 
 Verify MySQL/MongoDB is running
-
 Check credentials
-
 Ensure database exists
 
 
-Import Issues:
+**Import Issues:**
 
 
 Verify CSV file format
-
 Check file permissions
-
 Ensure sufficient disk space
 
 
-Query Issues:
+**Query Issues:**
 
 
 Check table/collection exists
-
 Verify column names in queries
-
 Ensure data types match
 
 # Requirements
