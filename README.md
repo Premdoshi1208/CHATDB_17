@@ -1,4 +1,4 @@
-ChatDB: Interactive Database Query Assistant
+# ChatDB: Interactive Database Query Assistant
 An interactive command-line application that allows users to query both SQL and MongoDB databases using natural language input.
 Files in the Project
 
