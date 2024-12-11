@@ -11,11 +11,11 @@ coffee_shop_sales.csv - Sample dataset for testing
 
 Install required dependencies:
 
-bashCopypip install mysql-connector-python pymongo nltk pandas matplotlib tabulate numpy sqlalchemy
+pip install mysql-connector-python pymongo nltk pandas matplotlib tabulate numpy sqlalchemy
 
 Download NLTK data (run in Python):
 
-pythonCopyimport nltk
+import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -24,16 +24,16 @@ nltk.download('wordnet')
 
 First, set up your database using the setup utility:
 
-bashCopypython database_setup.py
+python database_setup.py
+
 When prompted:
 
-For MySQL: Enter host, user, password, and database name
-For MongoDB: Enter connection string and database name
+**1) For MySQL: Enter host, user, password, and database name**
+**2) For MongoDB: Enter connection string and database name**
 
 
 Run the ChatDB application:
-
-bashCopypython chatdb.py
+python chatdb.py
 
 # Features
 
