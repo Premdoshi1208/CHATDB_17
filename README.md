@@ -1,12 +1,13 @@
 # ChatDB: Interactive Database Query Assistant
 An interactive command-line application that allows users to query both SQL and MongoDB databases using natural language input.
-Files in the Project
+
+# Files in the Project
 
 chatdb.py - Main application with database querying and visualization capabilities
 database_setup.py - Utility to set up databases and import data
 coffee_shop_sales.csv - Sample dataset for testing
 
-Installation
+# Installation
 
 Install required dependencies:
 
@@ -18,7 +19,8 @@ pythonCopyimport nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-Usage
+
+# Usage
 
 First, set up your database using the setup utility:
 
@@ -32,7 +34,8 @@ For MongoDB: Enter connection string and database name
 Run the ChatDB application:
 
 bashCopypython chatdb.py
-Features
+
+# Features
 
 Database Support:
 
@@ -73,32 +76,38 @@ Sample data viewing
 Custom query execution
 Query suggestions
 
-Database Connection Details
-MySQL:
+# Database Connection Details
+
+# MySQL:
 CopyHost: localhost
 Default user: chatdb_user
 Default password: your_password
-MongoDB:
+
+# MongoDB:
 CopyDefault connection string: mongodb://localhost:27017/
-Common Commands and Examples
+
+# Common Commands and Examples
 
 Import data:
 
-bashCopy# Run setup utility
+bash
+#Run setup utility
 python database_setup.py
 
-# Choose option 1 for MySQL or 2 for MongoDB
-# Follow the prompts to import your CSV file
+#Choose option 1 for MySQL or 2 for MongoDB
+#Follow the prompts to import your CSV file
 
 Query data:
 
-bashCopy# Run main application
+bash
+#Run main application
 python chatdb.py
 
-# Connect to database (option 1 or 2)
-# Use option 5 for natural language queries
-# Use option 7 for data visualization
-Error Handling and Troubleshooting
+#Connect to database (option 1 or 2)
+#Use option 5 for natural language queries
+#Use option 7 for data visualization
+
+# Error Handling and Troubleshooting
 
 Database Connection Issues:
 
@@ -123,7 +132,7 @@ Check table/collection exists
 Verify column names in queries
 Ensure data types match
 
-Requirements
+# Requirements
 
 Python 3.7+
 MySQL Server
@@ -141,5 +150,5 @@ sqlalchemy
 
 
 
-Note
+# Note
 Make sure to have MySQL and MongoDB servers running before using the application.
