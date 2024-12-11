@@ -4,7 +4,9 @@ An interactive command-line application that allows users to query both SQL and 
 # Files in the Project
 
 chatdb.py - Main application with database querying and visualization capabilities
+
 database_setup.py - Utility to set up databases and import data
+
 coffee_shop_sales.csv - Sample dataset for testing
 
 # Installation
@@ -29,6 +31,7 @@ python database_setup.py
 When prompted:
 
 **1) For MySQL: Enter host, user, password, and database name**
+
 **2) For MongoDB: Enter connection string and database name**
 
 
